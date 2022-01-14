@@ -17,7 +17,8 @@ ssh cse15lwi22___@ieng6.ucsd.edu
 ![Image](lab-1-step-2.png)
 
 ## Trying Some Commands
-* Write commands in the terminal. Some examples include:
+* Use commands such as **cd**, **cp**, **ls**, **mkdir**, and **pwd**, and write them in the terminal .
+* Other examples include:
 ```
 ls -a
 ```
