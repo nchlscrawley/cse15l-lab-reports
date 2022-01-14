@@ -12,5 +12,6 @@
 ```
 ssh cse15lwi22___@ieng6.ucsd.edu
 ```
-* This command lets you connect to the ieng6 server. The terminal should look like this once you're connected. (If this is the first time you connect to the server and you get a message asking if you want to connect, type yes.) 
+* This command lets you connect to the ieng6 server. (If this your first time connecting to the ieng6 server, you will get a message asking if you want to connect. Type yes.)
+* The terminal should look like this once you're connected.
 ![Image](lab-1-step-2.png)
