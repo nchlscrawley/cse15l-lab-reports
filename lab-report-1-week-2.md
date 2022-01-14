@@ -4,3 +4,4 @@
 ## Installing VSCode
 * Go to [https://code.visualstudio.com/](https://code.visualstudio.com/) and download Visual Studio.
 * Once it is installed on your computer, open Visual Studio. You should see the window below.
+![Image]()
