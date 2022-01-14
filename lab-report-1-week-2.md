@@ -8,5 +8,7 @@
 
 ## Remotely Connecting
 * Next, click on the Terminal tab and open a new terminal.
-* Write the following command into the terminal.
-> `ssh cse15lwi22zzz@ieng6.ucsd.edu`
+* Write the following command in the terminal. **(Put the letters unique to your account in the blank)**
+> `ssh cse15lwi22___@ieng6.ucsd.edu`
+* This command lets you connect to the ieng6 server. (If this is the first time you connect to the server and you get a message asking if you want to connect, type y.)
+![Image](lab-1-step-2.png)
