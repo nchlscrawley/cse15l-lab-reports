@@ -51,13 +51,11 @@ scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
 ![Image](lab-1-step-4.png)
 
 ## Setting an SSH Key
-* You can use an **ssh** key to avoid having to type your password every time you want to connect to a server.
-* Write the following:
+* You can use an **ssh** key to avoid having to type your password every time you want to connect to a server. Write the following:
 ```
 ssh-keygen
 ```
-* After you follow the prompts, you will have a private and public key on your computer.
-* Connect to your ieng6 account and write the following:
+* After you follow the prompts, you will have a private and public key on your computer. Connect to your ieng6 account and write the following:
 ```
 mkdir .ssh
 ```
