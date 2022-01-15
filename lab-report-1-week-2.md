@@ -67,4 +67,12 @@ scp /Users/<you>/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ![Image](lab-1-step-5.png)
 
 ## Optimizing Remote Running
-* 
+* Write the following commands:
+```
+scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
+```
+```
+ssh cs15lwi22___@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+```
+* You can use the up arrows in the terminal after making changes to save the file on your remote computer.
+![Image](lab-1-step-6.png)
