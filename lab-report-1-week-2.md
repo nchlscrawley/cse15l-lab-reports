@@ -30,7 +30,7 @@ cat /home/linux/ieng6/cs15lwi22/public/hello.txt
 ```
 ![Image](lab-1-step-3.png)
 
-## Moving Files with **scp**
+## Moving Files with scp
 * Create a file called **WhereAmI.java** and write the following:
 ```
 class WhereAmI {
@@ -72,7 +72,7 @@ scp /Users/<you>/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 scp WhereAmI.java cs15lwi22___@ieng6.ucsd.edu:~/
 ```
-* Next, write a **ssh** command that logs in to your remote computer. Then, write a command in quotes at the end of the **ssh** command that runs the **javac** and **java** commands remotely. (Use a semicolon to run several commands.)
+* Next, write a **ssh** command that logs in to your remote computer. Then, write a command in quotes at the end of the **ssh** command that runs the **javac** and **java** commands remotely. (Separate commands with a semicolon.)
 ```
 ssh cs15lwi22___@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
