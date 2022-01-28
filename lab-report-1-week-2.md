@@ -67,7 +67,7 @@ scp /Users/<you>/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ![Image](lab-1-step-5.png)
 
 ## Optimizing Remote Running
-* We can make the process of saving a file to your remote computer and running it more efficient.
+* Instead of writing commands every time we want to save a file to our remote computer and run it there, we can use a more efficient process.
 * First, write a **scp** command that copies **WhereAmI.java** to your remote computer:
 ```
 scp WhereAmI.java cs15lwi22___@ieng6.ucsd.edu:~/
