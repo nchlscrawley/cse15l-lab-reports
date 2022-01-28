@@ -44,7 +44,7 @@ class WhereAmI {
 ```
 * Write the command below:
 ```
-scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
+scp WhereAmI.java cs15lwi22___@ieng6.ucsd.edu:~/
 ```
 * This command will copy **WhereAmI.java** from your local computer to your remote computer.
 * Use the **ssh** command again to access the remote computer and run the file using **javac** and **java**.
@@ -67,12 +67,16 @@ scp /Users/<you>/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ![Image](lab-1-step-5.png)
 
 ## Optimizing Remote Running
-* Write the following commands:
+* There is a way to make the process of saving a file to your remote computer and running it more efficient.
+* First, write a **scp** command that copies **WhereAmI.java** to your remote computer:
 ```
-scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
+scp WhereAmI.java cs15lwi22___@ieng6.ucsd.edu:~/
 ```
+* Next, write a **ssh** command that logs in to your remote computer. Then, write a command in quotes at the end of the **ssh** command that runs the **javac** and **java** commands remotely. (Use a semicolon to run several commands.)
 ```
 ssh cs15lwi22___@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
-* You can use the up arrows in the terminal after making changes to save the file on your remote computer.
+* After you have written these two commands, make changes to your file and save it.
+* In the terminal, press the up-arrow key two times and you will see the **ssh** command you wrote before. Press enter. Press the up-arrow two times and you will see the **scp** command. Press enter.
+* You have copied **WhereAmI.java** to your remote computer and remotely ran **javac** and **java** commands using a total of **SIX** keystrokes.
 ![Image](lab-1-step-6.png)
