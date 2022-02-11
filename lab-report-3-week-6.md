@@ -2,7 +2,7 @@
 **Written by Nicholas Crawley**
 
 ## Streamlining ssh Configuration
-* First, I opened the following file:
+* To make **ssh** commands easier to write, I started by opening the following file:
 ```
 ~/.ssh/config
 ```
