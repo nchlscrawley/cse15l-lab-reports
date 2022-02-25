@@ -19,4 +19,17 @@
 ```
 [`google.com]
 ```
-*
+
+## Snippet 2
+```
+[a [nested link](a.com)](b.com)
+
+[a nested parenthesized url](a.com(()))
+
+[some escaped \[ brackets \]](example.com)
+```
+* Output should produce the second and third links:
+```
+[a nested parenthesized url, some escaped [ brackets ]]
+```
+
