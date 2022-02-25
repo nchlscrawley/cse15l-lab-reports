@@ -60,7 +60,7 @@ And there's still some more text after that.
 
 And then there's more text
 ```
-* Output should only produce only the second link:
+* Output should only produce the second link:
 ```
-https://ucsd-cse15l-w22.github.io/
+[https://ucsd-cse15l-w22.github.io/]
 ```
