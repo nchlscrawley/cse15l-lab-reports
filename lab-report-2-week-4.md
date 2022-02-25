@@ -15,7 +15,7 @@
 * [*Test File Link*](https://nchlscrawley.github.io/cse15l-lab-reports/test-file3.html)
 * *Symptom*
 ![Image](lab-3-part-2-2.png)
-* The link in the test file had a closing parenthesis in an unexpected location, resulting in memory running out. The new code prints the link starting from the first open parenthesis to the last closed parenthesis.
+* The link in the test file had a closing parenthesis in an unexpected location, resulting in memory running out. The new code looks for a closed parenthesis at the end of the line, then prints the link.
 
 ## Code Change 3
 * *Code Change Diff*
