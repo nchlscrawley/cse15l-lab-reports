@@ -23,4 +23,4 @@
 * [*Test File Link*](https://nchlscrawley.github.io/cse15l-lab-reports/test-file4.html)
 * *Symptom*
 ![Image](lab-3-part-3-2.png)
-* When encountering nothing between the parentheses, the program displays nothing between the brackets. The new code looks for something between the parentheses. If there is nothing, an error message is printed.
+* When encountering nothing between the parentheses, the program displays nothing between the brackets. The new code displays an error message if nothing is between the parentheses.
