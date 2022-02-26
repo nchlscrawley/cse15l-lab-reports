@@ -20,7 +20,7 @@
 [`google.com]
 ```
 * From my repository, the output displayed all four links. I think a code change of 10 lines or less is possible, as most of the errors involve misplaced brackets and parentheses.
-* From *jordan-nishi*'s repository, the output displayed first three links.
+* From *jordan-nishi*'s repository, the output displayed the first three links.
 
 ## Snippet 2
 ```
@@ -34,7 +34,7 @@
 ```
 [a nested parenthesized url, some escaped [ brackets ]]
 ```
-* From my repository, the output displayed all three links. I think a code change of 10 lines or less is possible, as, similar to snippet 1, most of the errors involve misplaced brackets and parentheses, as well as too many parentheses.
+* From my repository, the output displayed all three links. I think a code change of 10 lines or less is possible, Similar to snippet 1, most of the errors involve misplaced brackets and parentheses, as well as too many parentheses.
 * From *jordan-nishi*'s repository, the output display four links, one of those links being **a.com**, a link inside the brackets in the first line.
 
 ## Snippet 3
