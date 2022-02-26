@@ -68,4 +68,5 @@ And then there's more text
 ```
 [https://ucsd-cse15l-w22.github.io/]
 ```
-
+* From my repository, the output displayed an out of memory error message. I think a code change would involve more than 10 lines, as there are a lot of errors within this snippet that would likely require a substantial amount of code.
+* From *jordan-nishi*'s repository, the output displayed the first two links and everything starting with **github.com**.
