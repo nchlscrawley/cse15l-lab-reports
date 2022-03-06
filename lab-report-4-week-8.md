@@ -74,5 +74,5 @@ And then there's more text
 ```
 * From my repository, the output displayed an out of memory error message. I think a code change would involve more than 10 lines, as there are a lot of errors within this snippet and would likely require a substantial amount of code.
 ![Image](test-snippet-3-1.png)
-* From *jordan-nishi*'s repository, the output displayed the first two links and everything from **github.com** to the last parenthesis.
+* From *jordan-nishi*'s repository, the output displayed the first two links and everything from **github.com** to the end of the fourth link.
 ![Image](test-snippet-3-2.png)
