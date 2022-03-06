@@ -30,12 +30,12 @@
 
 [some escaped \[ brackets \]](example.com)
 ```
-* Output should produce the second and third links:
+* Output should produce the first, third, and fourth links:
 ```
-[a nested parenthesized url, some escaped [ brackets ]]
+[a.com, a.com(()), example.com]
 ```
-* From my repository, the output displayed all three links. I think a code change of 10 lines or less is possible. Similar to snippet 1, most of the errors involve misplaced brackets and parentheses, as well as too many parentheses.
-* From *jordan-nishi*'s repository, the output displayed four links, one of those links being **a.com**, a link inside the brackets in the first line.
+* From my repository, the output displayed the first and fourth links correctly, but did not include the ending parentheses for the third link, **a.com(())**. I think a code change of 10 lines or less is possible. Similar to snippet 1, most of the errors involve misplaced brackets and parentheses, as well as too many parentheses.
+* From *jordan-nishi*'s repository, the output displayed all four links.
 
 ## Snippet 3
 ```
