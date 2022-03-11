@@ -12,3 +12,12 @@ Initially, I manually searched through all 652 tests, as a significant number of
 * Of the two implementations, I think mine displays the correct output, as this program is not supposed to accept files with image references.
 * The Lab 9 implementation displays **uri1**, when it should display an error when encountering a file with an image reference. An if statement looking for an exclamation point at the beginning of the line can be written before the while loop below.
 ![Image](lab-9-code-1.png)
+
+## Test 2
+* My Implementation's Output:
+![Image](test-file-566-1.png)
+* Lab 9 Implementation's Output:
+![Image](test-file-566-2.png)
+* While I think both implementations are not completely correct, I think the part of my implementation's output that displays an error message stating no link is provided, is the correct output.
+* While I think my implementation does contain the correct output, it also follows that with an out of memory error. Line 24 of my code would need to be fixed below.
+![Image](lab-9-code-2.png)
