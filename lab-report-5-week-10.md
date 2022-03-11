@@ -4,7 +4,7 @@
 ## Method
 Initially, I manually searched through all 652 tests, as a significant number of them resulted in errors. When I did encounter tests that I could use, I edited *script.sh* to include the tests I wanted to use. Then, I used **diff** to look for different results.
 
-## Test 1: *test-files/519.md*
+## Test 1
 * My Implementation's Output:
 ![Image](test-file-519-1.png)
 * Lab 9 Implementation's Output:
